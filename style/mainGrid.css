@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before.
+*:after {
+    box-sizing: inherit;
+}
+
+.grid-container {
+    max-width: 1em;
+    margin: auto;
+    padding: auto;
+}
+
+.top-row {
+    width: 100%;
+    height: 33.33333%;
+}
+
+#top-panel-left {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+#top-panel-center {
+    width: 50%;
+    height: 100%;
+}
+
+#top-panel-right {
+    width: 25%;
+    height: 100%;
+    float: right;
+}
+
+.bottom-left .bottom-right {
+    width: 50%;
+    height: 66.66666%;
+}
+
+#anomie-marquee {
+    width: 100%;
+    height: 50%;
+}
+
+.portals {
+    width: 100%;
+    height: 50%;
+}
+
+#portal-a #portal-b #portal-c #portal-d {
+    width: 25%;
+    height: 100%;
+}
+
+#portal-b {
+    width: 25%;
+    height: 100%;
+}
+
+#portal-c {
+    width: 25%;
+    height: 100%;
+}
+
+#portal-d {
+    width: 25%;
+    height: 100%;
+}
+
+#bottom-panel-left {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#bottom-panel-right {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
