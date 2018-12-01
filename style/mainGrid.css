@@ -8,15 +8,17 @@ html {
     box-sizing: inherit;
 }
 
-.backdrop {
-    /* Add background landscape here. */
+#backdrop {
+    /* Default to backdropA */
+    background-image: url('../images/backdropA');
+    background-size: contain;
 }
 
 .grid-container {
     max-width: 1140px;
     margin: auto;
     padding: auto;
-    /*background-color: #EEEEEE;*/
+    /* background-color: #EEEEEE; */
 }
 
 .top-row {
@@ -28,7 +30,7 @@ html {
     width: 25%;
     height: 100%;
     float: left;
-    background-size: url('../images/archTopRow_right_left.svg');
+    background-image: url('../images/archTopRow_right_left.svg');
     background-size: contain;
 }
 #top-panel-left:hover {
@@ -38,7 +40,7 @@ html {
 #top-panel-center {
     width: 50%;
     height: 100%;
-    background-size: url('../images/archTopRow_long_wide.svg');
+    background-image: url('../images/archTopRow_long_wide.svg');
     background-size: contain;
 }
 #top-panel-center:hover {
@@ -49,7 +51,7 @@ html {
     width: 25%;
     height: 100%;
     float: right;
-    background-size: url('../images/archTopRow_right_left.svg');
+    background-image: url('../images/archTopRow_right_left.svg');
     background-size: contain;
 }
 #top-panel-left:hover {
@@ -59,7 +61,7 @@ html {
 .bottom-left .bottom-right {
     width: calc(100vw / 2);
     height: calc(100vh / 3 * 2);
-}
+} 
 
 #anomie-marquee {
     width: 100%;
