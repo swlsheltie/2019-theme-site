@@ -8,10 +8,15 @@ html {
     box-sizing: inherit;
 }
 
+.backdrop {
+    /* Add background landscape here. */
+}
+
 .grid-container {
     max-width: 1140px;
     margin: auto;
     padding: auto;
+    background-color: #EEEEEE;
 }
 
 .top-row {
@@ -23,17 +28,20 @@ html {
     width: 25%;
     height: 100%;
     float: left;
+    background-size: url('../images/archTopRow_right_left.svg');
 }
 
 #top-panel-center {
     width: 50%;
     height: 100%;
+    background-size: url('../images/archTopRow_long_wide.svg');
 }
 
 #top-panel-right {
     width: 25%;
     height: 100%;
     float: right;
+    background-size: url('../images/archTopRow_right_left.svg');
 }
 
 .bottom-left .bottom-right {
@@ -51,34 +59,40 @@ html {
     height: 50%;
 }
 
-#portal-a #portal-b #portal-c #portal-d {
+#portal-a {
     width: 25%;
     height: 100%;
+    background-image: url('../images/archSmall_right_left.svg');
 }
 
 #portal-b {
     width: 25%;
     height: 100%;
+    background-image: url('../images/archSmall_right_left.svg');
 }
 
 #portal-c {
     width: 25%;
     height: 100%;
+    background-image: url('../images/archSmall_right_left.svg');
 }
 
 #portal-d {
     width: 25%;
     height: 100%;
+    background-image: url('../images/archSmall_right_left.svg');
 }
 
 #bottom-panel-left {
     width: 50%;
     height: 100%;
     float: left;
+    background-image: url('../images/archTall_1.svg');
 }
 
 #bottom-panel-right {
     width: 50%;
     height: 100%;
     float: right;
+    background-image: url('../images/archTall_window.svg');
 }
