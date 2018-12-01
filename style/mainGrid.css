@@ -10,7 +10,7 @@ html {
 
 #backdrop {
     /* Default to backdropA */
-    background-image: url('../images/backdropA');
+    background-image: url('../images/backdrops/mirador.jpg');
     background-size: contain;
 }
 
@@ -30,7 +30,7 @@ html {
     width: 25%;
     height: 100%;
     float: left;
-    background-image: url('../images/archTopRow_right_left.svg');
+    background-image: url('../images/archFrames/archTopRow_right_left.svg');
     background-size: contain;
 }
 #top-panel-left:hover {
@@ -40,7 +40,7 @@ html {
 #top-panel-center {
     width: 50%;
     height: 100%;
-    background-image: url('../images/archTopRow_long_wide.svg');
+    background-image: url('../images/archFrames/archTopRow_long_wide.svg');
     background-size: contain;
 }
 #top-panel-center:hover {
@@ -51,7 +51,7 @@ html {
     width: 25%;
     height: 100%;
     float: right;
-    background-image: url('../images/archTopRow_right_left.svg');
+    background-image: url('../images/archFrames/archTopRow_right_left.svg');
     background-size: contain;
 }
 #top-panel-left:hover {
@@ -76,7 +76,7 @@ html {
 #portal-a {
     width: 25%;
     height: 100%;
-    background-image: url('../images/archSmall_right_left.svg');
+    background-image: url('../images/archFrames/archSmall_right_left.svg');
     background-size: contain;
 }
 #portal-a:hover {
@@ -86,7 +86,7 @@ html {
 #portal-b {
     width: 25%;
     height: 100%;
-    background-image: url('../images/archSmall_right_left.svg');
+    background-image: url('../images/archFrames/archSmall_right_left.svg');
     background-size: contain;
 }
 #portal-b:hover {
@@ -96,7 +96,7 @@ html {
 #portal-c {
     width: 25%;
     height: 100%;
-    background-image: url('../images/archSmall_right_left.svg');
+    background-image: url('../images/archFrames/archSmall_right_left.svg');
     background-size: contain;
 }
 #portal-c:hover {
@@ -106,7 +106,7 @@ html {
 #portal-d {
     width: 25%;
     height: 100%;
-    background-image: url('../images/archSmall_right_left.svg');
+    background-image: url('../images/archFrames/archSmall_right_left.svg');
     background-size: contain;
 }
 #portal-d:hover {
@@ -117,7 +117,7 @@ html {
     width: 50%;
     height: 100%;
     float: left;
-    background-image: url('../images/archTall_1.svg');
+    background-image: url('../images/archFrames/archTall_1.svg');
     background-size: contain;
 }
 #bottom-panel-left:hover {
@@ -128,7 +128,7 @@ html {
     width: 50%;
     height: 100%;
     float: right;
-    background-image: url('../images/archTall_window.svg');
+    background-image: url('../images/archFrames/archTall_window.svg');
     background-size: contain;
     /* Add hover affects to octagon window. */
 }
