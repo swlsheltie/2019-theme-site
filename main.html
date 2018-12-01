@@ -4,12 +4,13 @@
         <title>LG 2019: ANOMIE</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="script/mainInteraction.js"></script>
         <link rel="stylesheet" type="text/css" href="style/mainGrid.css">
     </head>
     <body>
 
         <!-- Add landscape background here. Effects are applied to individual divs. -->
-        <div class="backdrop"></div>
+        <div id="backdrop"></div>
 
         <div class="grid-container">
 
@@ -23,10 +24,10 @@
                 <div id="anomie-marquee"></div>
                 
                 <div class="portals">
-                    <div id="portal-a"></div>
-                    <div id="portal-b"> </div>
-                    <div id="portal-c"></div>
-                    <div id="portal-d"></div>
+                    <div id="portal-a" onclick="changeImgA()"></div>
+                    <div id="portal-b" onclick="changeImgB()"> </div>
+                    <div id="portal-c" onclick="changeImgC()"></div>
+                    <div id="portal-d" onclick="changeImgD()"></div>
                 </div>
             </div>
 

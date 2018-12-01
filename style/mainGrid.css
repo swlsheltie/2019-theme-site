@@ -8,15 +8,17 @@ html {
     box-sizing: inherit;
 }
 
-.backdrop {
-    /* Add background landscape here. */
+#backdrop {
+    /* Default to backdropA */
+    background-image: url('../images/backdropA');
+    background-size: contain;
 }
 
 .grid-container {
     max-width: 1140px;
     margin: auto;
     padding: auto;
-    background-color: #EEEEEE;
+    /* background-color: #EEEEEE; */
 }
 
 .top-row {
@@ -28,26 +30,38 @@ html {
     width: 25%;
     height: 100%;
     float: left;
-    background-size: url('../images/archTopRow_right_left.svg');
+    background-image: url('../images/archTopRow_right_left.svg');
+    background-size: contain;
+}
+#top-panel-left:hover {
+    /* Add hover affects to top-leftmost window. */
 }
 
 #top-panel-center {
     width: 50%;
     height: 100%;
-    background-size: url('../images/archTopRow_long_wide.svg');
+    background-image: url('../images/archTopRow_long_wide.svg');
+    background-size: contain;
+}
+#top-panel-center:hover {
+    /* Add hover affects to long top-center window. */
 }
 
 #top-panel-right {
     width: 25%;
     height: 100%;
     float: right;
-    background-size: url('../images/archTopRow_right_left.svg');
+    background-image: url('../images/archTopRow_right_left.svg');
+    background-size: contain;
+}
+#top-panel-left:hover {
+    /* Add hover affects to top-rightmost window. */
 }
 
 .bottom-left .bottom-right {
     width: calc(100vw / 2);
     height: calc(100vh / 3 * 2);
-}
+} 
 
 #anomie-marquee {
     width: 100%;
@@ -63,24 +77,40 @@ html {
     width: 25%;
     height: 100%;
     background-image: url('../images/archSmall_right_left.svg');
+    background-size: contain;
+}
+#portal-a:hover {
+    /* Add hover affects to first portal tab. */
 }
 
 #portal-b {
     width: 25%;
     height: 100%;
     background-image: url('../images/archSmall_right_left.svg');
+    background-size: contain;
+}
+#portal-b:hover {
+    /* Add hover affects to first portal tab. */
 }
 
 #portal-c {
     width: 25%;
     height: 100%;
     background-image: url('../images/archSmall_right_left.svg');
+    background-size: contain;
+}
+#portal-c:hover {
+    /* Add hover affects to second portal tab. */
 }
 
 #portal-d {
     width: 25%;
     height: 100%;
     background-image: url('../images/archSmall_right_left.svg');
+    background-size: contain;
+}
+#portal-d:hover {
+    /* Add hover affects to third portal tab. */
 }
 
 #bottom-panel-left {
@@ -88,6 +118,10 @@ html {
     height: 100%;
     float: left;
     background-image: url('../images/archTall_1.svg');
+    background-size: contain;
+}
+#bottom-panel-left:hover {
+    /* Add hover affects to tall window. */
 }
 
 #bottom-panel-right {
@@ -95,4 +129,6 @@ html {
     height: 100%;
     float: right;
     background-image: url('../images/archTall_window.svg');
+    background-size: contain;
+    /* Add hover affects to octagon window. */
 }
