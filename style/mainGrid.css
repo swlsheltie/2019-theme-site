@@ -2,133 +2,159 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*:before.
-*:after {
-    box-sizing: inherit;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#backdrop {
-    /* Default to backdropA */
-    background-image: url('../images/backdrops/mirador.jpg');
-    background-size: contain;
-}
-
-.grid-container {
-    max-width: 1140px;
-    margin: auto;
-    padding: auto;
-    /* background-color: #EEEEEE; */
+body {
+    background-image: url('../images/backdrops/amallal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .top-row {
-    width: 100vh;
     height: calc(100vh / 3);
 }
 
 #top-panel-left {
-    width: 25%;
-    height: 100%;
+    width: calc(100vw / 4);
+    height: inherit;
     float: left;
+    /*background-color: gray;*/
     background-image: url('../images/archFrames/archTopRow_right_left.svg');
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
 }
 #top-panel-left:hover {
     /* Add hover affects to top-leftmost window. */
 }
 
 #top-panel-center {
-    width: 50%;
-    height: 100%;
+    width: calc(100vw / 2);
+    height: inherit;
+    float: left;
+    /*background-color: lightpink;*/
     background-image: url('../images/archFrames/archTopRow_long_wide.svg');
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
 }
 #top-panel-center:hover {
     /* Add hover affects to long top-center window. */
 }
 
 #top-panel-right {
-    width: 25%;
-    height: 100%;
-    float: right;
+    width: calc(100vw / 4);
+    height: inherit;
+    float: left;
+    /*background-color: lightyellow;*/
     background-image: url('../images/archFrames/archTopRow_right_left.svg');
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
 }
 #top-panel-left:hover {
     /* Add hover affects to top-rightmost window. */
 }
 
-.bottom-left .bottom-right {
+
+.bottom-left {
     width: calc(100vw / 2);
     height: calc(100vh / 3 * 2);
+    float: left;
 } 
 
 #anomie-marquee {
-    width: 100%;
-    height: 50%;
+    width: inherit;
+    height: calc(100vh / 3);
 }
 
 .portals {
-    width: 100%;
-    height: 50%;
+    width: inherit;
+    height: calc(100vh / 3);
+    float: bottom;
 }
 
 #portal-a {
-    width: 25%;
-    height: 100%;
+    width: calc(100vw / 8);
+    height: inherit;
+    float: left;
+    /*background-color: darkseagreen;*/
     background-image: url('../images/archFrames/archSmall_right_left.svg');
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
 }
 #portal-a:hover {
     /* Add hover affects to first portal tab. */
 }
 
 #portal-b {
-    width: 25%;
-    height: 100%;
+    width: calc(100vw / 8);
+    height: inherit;
+    float: left;
+    /*background-color: mediumpurple;*/
     background-image: url('../images/archFrames/archSmall_right_left.svg');
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
 }
 #portal-b:hover {
     /* Add hover affects to first portal tab. */
 }
 
 #portal-c {
-    width: 25%;
-    height: 100%;
+    width: calc(100vw / 8);
+    height: inherit;
+    float: left;
+    /*background-color: khaki;*/
     background-image: url('../images/archFrames/archSmall_right_left.svg');
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
 }
 #portal-c:hover {
     /* Add hover affects to second portal tab. */
 }
 
 #portal-d {
-    width: 25%;
-    height: 100%;
+    width: calc(100vw / 8);
+    height: inherit;
+    float: left;
+    /*background-color: mediumturquoise;*/
     background-image: url('../images/archFrames/archSmall_right_left.svg');
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
 }
 #portal-d:hover {
     /* Add hover affects to third portal tab. */
 }
 
+
+.bottom-right {
+    width: calc(100vw / 2);
+    height: calc(100vh / 3 * 2);
+    float: right;
+}
+
 #bottom-panel-left {
-    width: 50%;
-    height: 100%;
+    width: calc(100vw / 4);
+    height: inherit;
     float: left;
+    /*background-color: darksalmon;*/
     background-image: url('../images/archFrames/archTall_1.svg');
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
 }
 #bottom-panel-left:hover {
     /* Add hover affects to tall window. */
 }
 
 #bottom-panel-right {
-    width: 50%;
-    height: 100%;
+    width: calc(100vw / 4);
+    height: inherit;
     float: right;
+    /*background-color: cornflowerblue;*/
     background-image: url('../images/archFrames/archTall_window.svg');
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+}
+#bottom-panel-right:hover {
     /* Add hover affects to octagon window. */
 }
