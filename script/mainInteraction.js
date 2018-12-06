@@ -1,3 +1,12 @@
+window.onresize = function() {
+  $(".portals div").each(function(index) {
+    var w = $(this).width();
+    var h = $(this).height();
+    $(this).css(
+      "background-size", w +"px " + h + "px");
+  });
+};
+
 
 //On-click for portal-a changes backdrop to image A (amallal)
 function changeImgA() {
