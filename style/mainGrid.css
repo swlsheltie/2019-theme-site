@@ -3,9 +3,11 @@ html {
 }
 
 * {
+    box-sizing: border-box;
     font-size: 0;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 body {
@@ -67,6 +69,7 @@ body {
 #anomie-marquee {
     width: inherit;
     height: calc(100vh / 3);
+    background-color: #EEEEEE;
 }
 
 .portals {
