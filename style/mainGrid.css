@@ -3,6 +3,7 @@ html {
 }
 
 * {
+    font-size: 0;
     margin: 0;
     padding: 0;
 }
@@ -22,9 +23,9 @@ body {
     height: inherit;
     float: left;
     /*background-color: gray;*/
-    background-image: url('../images/archFrames/archTopRow_right_left.svg');
+    background-image: url('../images/archFrames/arch_toprow_medium.svg');
     background-repeat: no-repeat;
-    background-size: contain, cover;
+    background-size: cover;
 }
 #top-panel-left:hover {
     /* Add hover affects to top-leftmost window. */
@@ -35,9 +36,9 @@ body {
     height: inherit;
     float: left;
     /*background-color: lightpink;*/
-    background-image: url('../images/archFrames/archTopRow_long_wide.svg');
+    background-image: url('../images/archFrames/arch_toprow_long.svg');
     background-repeat: no-repeat;
-    background-size: contain, cover;
+    background-size: cover;
 }
 #top-panel-center:hover {
     /* Add hover affects to long top-center window. */
@@ -48,9 +49,9 @@ body {
     height: inherit;
     float: left;
     /*background-color: lightyellow;*/
-    background-image: url('../images/archFrames/archTopRow_right_left.svg');
+    background-image: url('../images/archFrames/arch_toprow_medium.svg');
     background-repeat: no-repeat;
-    background-size: contain, cover;
+    background-size: cover;
 }
 #top-panel-left:hover {
     /* Add hover affects to top-rightmost window. */
@@ -79,9 +80,9 @@ body {
     height: inherit;
     float: left;
     /*background-color: darkseagreen;*/
-    background-image: url('../images/archFrames/archSmall_right_left.svg');
+    background-image: url('../images/archFrames/arch_short.svg');
     background-repeat: no-repeat;
-    background-size: contain, cover;
+    background-size: cover;
 }
 #portal-a:hover {
     /* Add hover affects to first portal tab. */
@@ -92,9 +93,9 @@ body {
     height: inherit;
     float: left;
     /*background-color: mediumpurple;*/
-    background-image: url('../images/archFrames/archSmall_right_left.svg');
+    background-image: url('../images/archFrames/arch_short.svg');
     background-repeat: no-repeat;
-    background-size: contain, cover;
+    background-size: cover;
 }
 #portal-b:hover {
     /* Add hover affects to first portal tab. */
@@ -105,9 +106,9 @@ body {
     height: inherit;
     float: left;
     /*background-color: khaki;*/
-    background-image: url('../images/archFrames/archSmall_right_left.svg');
+    background-image: url('../images/archFrames/arch_short.svg');
     background-repeat: no-repeat;
-    background-size: contain, cover;
+    background-size: cover;
 }
 #portal-c:hover {
     /* Add hover affects to second portal tab. */
@@ -118,9 +119,9 @@ body {
     height: inherit;
     float: left;
     /*background-color: mediumturquoise;*/
-    background-image: url('../images/archFrames/archSmall_right_left.svg');
+    background-image: url('../images/archFrames/arch_short.svg');
     background-repeat: no-repeat;
-    background-size: contain, cover;
+    background-size: cover;
 }
 #portal-d:hover {
     /* Add hover affects to third portal tab. */
@@ -138,9 +139,9 @@ body {
     height: inherit;
     float: left;
     /*background-color: darksalmon;*/
-    background-image: url('../images/archFrames/archTall_1.svg');
+    background-image: url('../images/archFrames/arch_tall.svg');
     background-repeat: no-repeat;
-    background-size: contain, cover;
+    background-size: cover;
 }
 #bottom-panel-left:hover {
     /* Add hover affects to tall window. */
@@ -151,9 +152,9 @@ body {
     height: inherit;
     float: right;
     /*background-color: cornflowerblue;*/
-    background-image: url('../images/archFrames/archTall_window.svg');
+    background-image: url('../images/archFrames/oct_window.svg');
     background-repeat: no-repeat;
-    background-size: contain, cover;
+    background-size: cover;
 }
 #bottom-panel-right:hover {
     /* Add hover affects to octagon window. */
