@@ -4,22 +4,25 @@
         <title>LG 2019: ANOMIE</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="script/mainInteraction.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/3.0.1/pixi.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+
         <link rel="stylesheet" type="text/css" href="style/mainGrid.css">
+        <link rel="stylesheet" type="text/css" href="style/interact.css">
     </head>
     <body>
-
+      <div class="svg-top">
         <div class="top-row">
                 <div id="top-panel-left"></div>
                 <div id="top-panel-center"></div>
                 <div id="top-panel-right"></div>
         </div>
-            
+
         <div class="bottom-left">
             <div id="anomie-marquee">
                 <h1>ANOMIE</h1>
             </div>
-            
+
             <div class="portals">
                 <div id="portal-a" onclick="changeImgA()"></div>
                 <div id="portal-b" onclick="changeImgB()"></div>
@@ -32,6 +35,29 @@
             <div id="bottom-panel-left"></div>
             <div id="bottom-panel-right"></div>
         </div>
+      </div>
+
+      <div id="jello-container" class="jello-container">
+        <div class="jello-controls ghost">
+          <div class="jello-controls__wrap ghost__child">
+            <button type="button" class="meta -light jello-controls__cta--button js-change-image">Change Image</button>
+            <button type="button" class="meta -light jello-controls__cta--button js-change-image-1">Change Image</button>
+            <button type="button" class="meta -light jello-controls__cta--button js-change-image-2">Change Image</button>
+            <button type="button" class="meta -light jello-controls__cta--button js-change-image-3">Change Image</button>
+            <button type="button" class="meta -light jello-controls__cta--button js-change-image-4">Change Image</button>
+
+            <span class="meta -light">/</span>
+            <button type="button" class="meta -light jello-controls__cta--button js-change-distortion">Change Distortion</button>
+            <span class="meta -light">/</span>
+            <button type="button" class="meta -light jello-controls__cta--button js-toggle-distortion">Toggle Distortion</button>
+          </div>
+        </div>
+      <canvas class="jello-canvas"></canvas>
+    </div>
+
+
 
     </body>
+
+    <script src="script/mainInteraction.js"></script>
 </html>
