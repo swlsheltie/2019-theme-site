@@ -1,14 +1,12 @@
 
-
-
 class Jello {
   // Cached variables that can be used and changed in all the functions in the class
   constructor(options = {}) {
     this.defaults = {};
     this.options = options;
     this.canvasHolder = document.getElementById("jello-container");
-    this.imgWidth = 1000;
-    this.imgHeight = 500;
+    this.imgWidth =  1000;
+    this.imgHeight =  500;
     this.imgRatio = this.imgHeight / this.imgWidth;
     this.winWidth = window.innerWidth;
     this.bgArray = [];
@@ -21,7 +19,7 @@ class Jello {
     this.imgContainer = new PIXI.Container();
     this.imageCounter = 0;
     this.displacementSprite = PIXI.Sprite.fromImage(
-      "https://upload.wikimedia.org/wikipedia/commons/8/89/Cyclone_Catarina_from_the_ISS_on_March_26_2004.JPG"
+      "https://i.imgur.com/qFzn1no.jpg"
     );
     this.displacementFilter = new PIXI.filters.DisplacementFilter(
       this.displacementSprite
@@ -52,10 +50,10 @@ class Jello {
     // An array of images for background (.jpg)
     // They'll transition in the order listed below
     this.bgArray.push(
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Barren_ridge_%283973968170%29.jpg/1920px-Barren_ridge_%283973968170%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Camel_Trail_%284176162683%29.jpg/1280px-Camel_Trail_%284176162683%29.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Chuquicamata_copper_mine_-_panoramio.jpg/1280px-Chuquicamata_copper_mine_-_panoramio.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Desert_%286486329823%29.jpg/1280px-Desert_%286486329823%29.jpg",
+      "https://i.imgur.com/mE0tiAC.jpg",
+      "https://i.imgur.com/h4hq3Jp.jpg",
+      "https://i.imgur.com/7OATz6e.jpg",
+      "https://i.imgur.com/Em0uZZz.jpg",
     );
 
     // An array of displacement maps
@@ -327,18 +325,6 @@ $("#bottom-panel-left").hover(function() {
   $(".js-toggle-distortion").trigger("click");
 });
 
-
-
-
-
-window.onresize = function() {
-  $(".portals div").each(function(index) {
-    var w = $(this).width();
-    var h = $(this).height();
-    $(this).css(
-      "background-size", w +"px " + h + "px");
-  });
-};
 
 
 //On-click for portal-a changes backdrop to image A (amallal)
