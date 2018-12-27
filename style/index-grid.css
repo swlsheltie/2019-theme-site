@@ -127,7 +127,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/* 
 .portals div:after {
   content: "";
   position: absolute;
@@ -137,7 +137,7 @@ h1 {
   right: -3px;
   top: 0;
   z-index: 1000;
-}
+} */
 
 
 .bottom-right {
@@ -188,7 +188,7 @@ h1 {
   position: relative;
 }
 
-.svg-top div:after {
+/* .svg-top div:after {
   content: "";
   position: absolute;
   height: 100%;
@@ -206,4 +206,4 @@ h1 {
   background: #eee;
   right: 0;
   top: -3px;
-}
+} */
