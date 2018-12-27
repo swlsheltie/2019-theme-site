@@ -50,6 +50,7 @@ body {
   color: #555;
   z-index: 1000;
   font-size: 100px;
+  font-family: GothamNarrow, mad-serif;
   top: 50%;
 }
 
