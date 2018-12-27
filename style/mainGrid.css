@@ -147,16 +147,24 @@ h1 {
 }
 
 #bottom-octagon {
+    width: inherit;
+    height: calc(100vh / 3);
+    float: inherit;
     background-image: url('../images/archFrames/nav_window.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #bottom-star {
+    width: inherit;
+    height: calc(100vh / 3);
+    float: right;
+    padding-left: 50px;
     background-image: url('../images/archFrames/star.svg');
     background-color: #EEEEEE;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 75% 75%;
+    background-position: center;
 }
 
 
