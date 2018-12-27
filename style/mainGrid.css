@@ -7,7 +7,7 @@ html {
     font-size: 0;
     margin: 0;
     padding: 0;
-    border: 0;
+
 }
 
 body {
@@ -27,16 +27,24 @@ h1 {
     height: calc(100vh / 3);
 }
 
+.top-row div img, .portals div img, .bottom-right div img { 
+    z-index: -10;
+    object-fit: cover;
+ }
+
 #top-panel-left {
+    outline: solid white;   
     width: calc(100vw / 4);
     height: inherit;
     float: left;
     background-image: url('../images/archFrames/arch_toprow_medium.svg');
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 #top-panel-center {
+    outline: solid white; 
     width: calc(100vw / 2);
     height: inherit;
     float: left;
@@ -46,6 +54,7 @@ h1 {
 }
 
 #top-panel-right {
+    outline: solid white; 
     width: calc(100vw / 4);
     height: inherit;
     float: left;
@@ -62,18 +71,21 @@ h1 {
 }
 
 #anomie-marquee {
-    width: inherit;
+    outline: solid white; 
+    width: 99.6%;
     height: calc(100vh / 3);
     background-color: #EEEEEE;
 }
 
 .portals {
+    
     width: inherit;
     height: calc(100vh / 3);
     float: bottom;
 }
 
 #portal-a {
+    outline: solid white; 
     position: relative;
     width: calc(100vw / 8);
     height: inherit;
@@ -84,6 +96,7 @@ h1 {
 }
 
 #portal-b {
+    outline: solid white; 
     position: relative;
     width: calc(100vw / 8);
     height: inherit;
@@ -94,6 +107,7 @@ h1 {
 }
 
 #portal-c {
+    outline: solid white; 
     position: relative;
     width: calc(100vw / 8);
     height: inherit;
@@ -104,6 +118,7 @@ h1 {
 }
 
 #portal-d {
+    outline: solid white; 
     position: relative;
     width: calc(100vw / 8);
     height: inherit;
@@ -132,6 +147,7 @@ h1 {
 }
 
 #bottom-panel-left {
+    outline: solid white; 
     width: calc(100vw / 4);
     height: inherit;
     float: left;
@@ -141,6 +157,7 @@ h1 {
 }
 
 #bottom-panel-right {
+    outline: solid white; 
     width: calc(100vw / 4);
     height: inherit;
     float: right;
@@ -166,7 +183,6 @@ h1 {
     background-size: 75% 75%;
     background-position: center;
 }
-
 
 .svg-top div {
   position: relative;
