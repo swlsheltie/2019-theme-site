@@ -327,22 +327,40 @@ $("#bottom-panel-left").hover(function() {
 
 
 
-//On-click for portal-a changes backdrop to image A (amallal)
+//Hover events for portal-a changes backdrop to image A (amallal)
 function changeImgA() {
     document.getElementById('backdrop').src = '../images/backdrops/amallal.jpg';
 }
 
-//On-click for portal-b changes backdrop to image B (baratikva)
+//Hover events for portal-b changes backdrop to image B (baratikva)
 function changeImgB() {
     document.getElementById('backdrop').src = '../images/backdrops/baratikva.jpg';
 }
 
-//On-click for portal-c changes backdrop to image C (mirador)
+//Hover events for portal-c changes backdrop to image C (mirador)
 function changeImgC() {
     document.getElementById('backdrop').src = '../images/backdrops/mirador.jpg';
 }
 
-//On-click for portal-d changes backdrop to image D (north-tibet)
+//Hover events for portal-d changes backdrop to image D (north-tibet)
 function changeImgD() {
     document.getElementById('backdrop').src = '../images/backdrops/north-tibet.jpg';
+}
+
+
+//Onclick events to change between 4 pages
+function gotoAbout() {
+    location.href = "../about.html";
+}
+
+function gotoTickets() {
+    location.href = "../tickets.html";
+}
+
+function gotoPeople() {
+    location.href = "../people.html";
+}
+
+function gotoLines() {
+    location.href = "../lines.html";
 }
